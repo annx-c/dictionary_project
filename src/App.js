@@ -8,14 +8,14 @@ export default function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-       
+       <h1>Dictionry</h1>
       </header>
       <main>
         <Dictionary />
       </main>
       
       <footer className='text-center'>
-        Hello World
+        Code by Ana Cañete
       </footer>
       </div>
     </div>

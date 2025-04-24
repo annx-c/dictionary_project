@@ -1,2 +1,5 @@
-.Dictionary{
+.Dictionary .search-input{
+  padding: 8px 50px;
+  border-radius: 10px;
+  margin: 10px;
 }
