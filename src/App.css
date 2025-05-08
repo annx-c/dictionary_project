@@ -1,11 +1,11 @@
 :root{
-  --primary-color :#23322D  ;
-  --secundary-color: #2E4B47;
-  --title-color: #B2672D;
+  --primary-color :#1D2B26  ;
+  --secundary-color: #2F4F4F;
+  --title-color: #C75B12;
+  --subtitle-color: #D08C34;
+  --text-color: #DCE2D9;
+  --subtext-color: #A2C8A4;
   --title-font:  "Merriweather", serif;
-  --subtitle-color: #876B55;
-  --text-color: #DCD9D4;
-  --example-color: #70757a;
   --text-font: "Poppins", sans-serif;
 
 }
@@ -13,6 +13,12 @@
 body{
   background-color: var(--primary-color);
   color: white;
+}
+
+strong{
+  font-size: 13px;
+  color: var(--subtext-color);
+  opacity: 0.8;
 }
 
 /*APP*/
@@ -44,8 +50,6 @@ body{
   font-size: 10px;
   font-weight: bold;
   margin: 20px 0;
-
-
 }
 
 .Dictionary input{
@@ -53,7 +57,7 @@ body{
   padding: 8px 8px;
   color: var(--subtitle-color);
   border-radius: 8px;
-  border: 2px solid var(--title-color);
+  border: 2px solid var(--primary-color);
 }
 
 .Dictionary .hint{
@@ -94,14 +98,14 @@ body{
 }
 
 .Meaning .definition{
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .Meaning .example{
-  color: var(--example-color);
+  color: var(--subtext-color);
   font-size: 12px;
   font-style: italic;
-  opacity: 0.7;
+  opacity: 0.8;
   margin-top: 15px;
 }
 
@@ -109,21 +113,23 @@ body{
 
 .Synonyms{
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
+  padding: 0;
 }
 
 .Synonyms li{
   display: inline-block;
+  color: var(--subtext-color);
+  opacity: 0.8;
   padding-right: 15px;
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 /*PHOTOS*/
 .Photos img{
   border-radius: 4px;
   flex: 1 0 auto;
-  width: 350px;
-
+  width: 250px;
   height: 200px;
 }
 
@@ -136,4 +142,52 @@ body{
   gap: 25px;
 }
 
+/*FOOTER*/
+
+.App-footer{
+  background-color: var(--secundary-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+footer p{
+  color: var(--text-color);
+  font-family: var(--text-font);
+  font-size: 15px;
+}
+
+footer a{
+  color: var(--subtitle-color);
+  text-decoration: none;
+}
+
+footer a:hover{
+  transition: all 0.3s ease-in-out;
+  color: var(--subtext-color);
+}
+
+footer i{
+  font-size: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  padding: 10px;
+
+}
+
+footer i:hover{
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px)  {
+  .Dictionary h1{
+    margin: 10px;
+    font-size: 10px;
+    line-height: 2.5;
+  }
+
+  .Meaning .definition{
+    font-size: 14px;
+  }
+}
 
