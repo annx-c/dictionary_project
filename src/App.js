@@ -16,7 +16,7 @@ export default function App() {
             <p>
               © 2025 Annx_C - All rights reserved. | Open Source:{" "}
               <a
-                href="https://github.com/annx-c/world-clock"
+                href="https://github.com/annx-c/dictionary_project"
                 target="_blank"
                 rel="noreferrer"
               >
