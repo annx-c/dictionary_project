@@ -14,7 +14,7 @@ Aplicación web que permite buscar definiciones de palabras y obtener imágenes 
 
 ## 🖼 Vista previa
 
-![Captura de pantalla de la app](ruta/a/la/imagen.png)
+![Captura de pantalla de la app](./assets/dictionaryApp.png)
 
 
 
