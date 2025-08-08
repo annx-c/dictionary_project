@@ -4,15 +4,18 @@ Aplicación web que permite buscar definiciones de palabras y obtener imágenes 
 
 
 
+
 ## 🚀 Demo
 
 🔗 **Prueba la aplicación aquí:** [ENLACE_DEMO](https://dictionary-react-project-annx.netlify.app/)
 
 
 
+
 ## 🖼 Vista previa
 
 ![Captura de pantalla de la app](ruta/a/la/imagen.png)
+
 
 
 
@@ -24,11 +27,4 @@ Aplicación web que permite buscar definiciones de palabras y obtener imágenes 
 - **Free Dictionary API** 
 - **Pexels API**
 
-
-
-
-
-1. **Clona el repositorio**
-   ```bash
-   git clone https://github.com/usuario/diccionario-web.git
 
